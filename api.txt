@@ -1,0 +1,11 @@
+POST http://127.0.0.1:8000/api/auth/login?customer_email=user@gmail.com&password=123456
+
+GET http://127.0.0.1:8000/api/brands
+
+POST http://127.0.0.1:8000/api/brands?brand_name=maruti
+
+PUT http://127.0.0.1:8000/api/brands/3?brand_name=ss
+
+DELETE http://127.0.0.1:8000/api/brands/2
+
+POST http://127.0.0.1:8000/api/auth/logout
